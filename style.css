@@ -60,3 +60,46 @@
     border: none;
     border-radius: 3px;
 }
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px
+}
+.about-title{
+    padding: 20px;
+    text-align: center;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: #141414;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+
+}
+.box-title{
+    padding: 10px;
+}
+
+.box-description{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
